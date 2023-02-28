@@ -1,0 +1,10 @@
+@import "./global.css";
+@import "./componentes.css";
+
+@import "./header.css";
+@import "./sobre.css";
+@import "./produtos.css";
+@import "./preco.css";
+@import "./qualidade.css";
+@import "./newsletter.css";
+@import "./footer.css";

@@ -1,0 +1,19 @@
+.container {
+  max-width: 940px;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+}
+
+.titulo {
+  font-size: 3rem;
+  color: #222222;
+}

@@ -1,0 +1,28 @@
+/* PROPRIEDADES PADRÃO/RESET */
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: var(--cor-11);
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p,
+blockquote,
+dd {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
