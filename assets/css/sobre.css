@@ -19,13 +19,21 @@
 .sobre-conteudo {
   padding-top: 50px;
   display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
 
 }
 
 .sobre-info {
   font-size: 1.25rem;
+  line-height: 1.4;
   color: #7C7C7C;
   margin-right: 3.75rem;
+  flex: 2 1 300px;
+}
+
+.sobre-img {
+  flex: 1 1 160px;
 }
 
 .sobre-img>img {

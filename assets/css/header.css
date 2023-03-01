@@ -10,14 +10,20 @@ header {
 .header-banner {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+
+/* MENU */
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -30,8 +36,13 @@ header {
 .header-menu ul {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 2rem;
   align-items: center;
   font-size: 1.25rem;
   font-weight: bold;
+}
+
+.header-menu ul a {
+  padding: 0.5rem 1rem;
 }
